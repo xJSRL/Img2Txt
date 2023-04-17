@@ -1,6 +1,11 @@
 # Img2Txt
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.4.
+Img2Txt is used to extract text from images, such as scanned documents, images captured by cameras, or screenshots.
+
+This project uses [tesseract.js](https://tesseract.projectnaptha.com/) library.
+
+
+Generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.4.
 
 ## Development server
 

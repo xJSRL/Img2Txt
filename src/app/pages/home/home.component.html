@@ -1,0 +1,9 @@
+<p>home works!</p>
+<label>Upload img</label>
+
+<input type="file" (change)="onFileSelected($event)">
+<img *ngIf="filePreviewUrl" [src]="filePreviewUrl" style="width: auto; height: 500px;">
+
+
+<label>Recognized text is:</label>
+<label class="result">{{ ocrResult }}</label>
